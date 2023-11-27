@@ -1,16 +1,15 @@
-import React from 'react';
-import CardInfo from './Home/CardInfo';
-import Search from './Home/Search';
+import React from "react";
+import Logo from "../Main/Header/Logo";
+import Generations from "../Main/Header/Generations";
 
-const Home = () => {
+const Header = () => {
   return (
     <div>
-      <h1>home</h1>
-      <Search />
-      <CardInfo />
+      <h1>header</h1>
+      <Logo />
+      <Generations />
     </div>
   );
 };
 
-export default Home;
-
+export default Header;
