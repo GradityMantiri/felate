@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Evolution = () => {
+const Evolution = ({title}) => {
   return <button>{title}</button>;
 };
 
