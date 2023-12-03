@@ -1,7 +1,8 @@
 import React from 'react'
 
-const TypeEffect = () => {
-  return (
+const TypeEffect = ({title}) => {
+  return <button>{title}</button>
+    (
     <div>
         <p>typeEffect</p>
     </div>
